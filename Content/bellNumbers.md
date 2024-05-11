@@ -1,4 +1,4 @@
-### [<-- Back to the home page](setpartitions.md)
+### [<-- Back to the home page](index.md)
 
 # Bell Numbers
 
