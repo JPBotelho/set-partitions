@@ -1,3 +1,5 @@
+### [<-- Back to the home page](setpartitions.md)
+
 # Stirling Numbers of the Second Kind
 
 S(n, k) is the number of ways of partitioning an $n$ element set into $k$ subsets.

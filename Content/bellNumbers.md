@@ -1,3 +1,5 @@
+### [<-- Back to the home page](setpartitions.md)
+
 # Bell Numbers
 
 $B_n$ is the number of set partitions of an $n$ element set.
