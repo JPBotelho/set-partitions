@@ -7,12 +7,12 @@ S(n, k) is the number of ways of partitioning an $n$ element set into $k$ subset
 [A008277 on the OEIS](https://oeis.org/A008277)
 
 ## Basic Recurrence
-$\left\{{ n \atop n }\right\} = 1 \quad$  for $n \geq 0  $
+$\left\{{ n \atop n }\right\} = 1 \quad$  for $n \geq 0$
 
-$\left\{{ n \atop 0 }\right\} = \left\{{ 0 \atop n }\right\} = 0 \quad \text{ for } n>0 \text{.} $
+$\left\{{ n \atop 0 }\right\} = \left\{{ 0 \atop n }\right\} = 0 \quad \text{ for } n>0$
 
 $\left\{{n+1\atop k}\right\} = k \left\{{ n \atop k }\right\} + \left\{{n\atop k-1}\right\}
-\quad$ for $0<k<n $
+\quad$ for $0<k<n$
 ## Formulas
 
 $\left\{ {n \atop k}\right\} = \frac{1}{k!}\sum_{i=0}^k (-1)^{k-i} \binom{k}{i} i^n = \sum_{i=0}^k \frac{(-1)^{k-i} i^n}{(k-i)!i!}$
