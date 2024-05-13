@@ -1,3 +1,5 @@
+<!-- title: Stirling Numbers -->
+
 ### [<-- Back to the home page](index.md)
 
 # Stirling Numbers of the Second Kind

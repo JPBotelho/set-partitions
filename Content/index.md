@@ -1,6 +1,4 @@
----
-title: "Set partitions"
----
+<!-- title: Set Partitions -->
 
 # Set partitions
 
