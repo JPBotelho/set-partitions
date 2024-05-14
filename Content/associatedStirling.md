@@ -11,7 +11,7 @@ $\left\{
 \right\}
 _{\ge m}$ 
 
-is the number of ways of partitioning an $n$ element set into $k$ subsets such that each subset has at least $m$ elements. They are often called **"associated stirling numbers"** or **"r-associated stirling numbers"**. 
+is the number of ways of partitioning an $n$ element set into $k$ subsets such that each subset has **at least $m$ elements**. They are often called **"associated stirling numbers"** or **"r-associated stirling numbers"**. 
 
 Case m=2: https://oeis.org/A008299
 

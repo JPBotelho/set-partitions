@@ -2,57 +2,108 @@
 
 ### [<-- Back to the home page](index.md)
 
-# Stirling Numbers of the Second Kind
+# Restricted Stirling Numbers of the Second Kind
+$\left\{
+\begin{matrix}
+    n\\
+    k
+\end{matrix}
+\right\}
+_{\le m}$ 
 
-S(n, k) is the number of ways of partitioning an $n$ element set into $k$ subsets.
+is the number of ways of partitioning an $n$ element set into $k$ subsets such that each subset has **at most $m$ elements**. They are often called **"Restricted Stirling numbers"** or **"r-Restricted Stirling numbers"**. 
 
-[A008277 on the OEIS](https://oeis.org/A008277)
+Case m=2: https://oeis.org/A144299
 
+Case m=3: https://oeis.org/A111246
+
+Case m=4: https://oeis.org/A144644
+
+Case m=5: https://oeis.org/A151509
+
+Case m=6: https://oeis.org/A151511
 ## Basic Recurrence
-$\left\{{ n \atop n }\right\} = 1 \quad$  for $n \geq 0$
 
-$\left\{{ n \atop 0 }\right\} = \left\{{ 0 \atop n }\right\} = 0 \quad \text{ for } n>0$
 
-$\left\{{n+1\atop k}\right\} = k \left\{{ n \atop k }\right\} + \left\{{n\atop k-1}\right\}
-\quad$ for $0<k<n$
+$\left\{
+\begin{matrix}
+    n\\
+    0
+\end{matrix}
+\right\}
+_{\le m}
+= \left\{
+\begin{matrix}
+    0\\
+    n
+\end{matrix}
+\right\}
+_{\le m}
+= 0 \text{ for } n > 0$ 
+
+$\left\{
+\begin{matrix}
+    0\\
+    0
+\end{matrix}
+\right\}
+_{\le m}
+= 1$
+
+
+$$
+\left\{ {n+1 \atop k} \right\}_{\leq m} = \sum_{i=0}^{m-1} \binom{n}{i} \left\{ {n-i \atop k-1} \right\}_{\leq m}
+$$
+$$
+= k \left\{ {n \atop k} \right\}_{\leq m} + \binom{n}{k-1} - \binom{n}{m} \left\{ {n-m \atop k-1} \right\}_{\leq m}
+$$
+
+
 ## Formulas
 
-$\left\{ {n \atop k}\right\} = \frac{1}{k!}\sum_{i=0}^k (-1)^{k-i} \binom{k}{i} i^n = \sum_{i=0}^k \frac{(-1)^{k-i} i^n}{(k-i)!i!}$
+No explicit formula to calculate these numbers is known. If you find one, please let me know!
 
 
 ## Identities
 
-https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind
 
-- $\sum_{k=0}^n \left\{ {n \atop k} \right\}(x)_k=x^n$
+$\left\{
+\begin{matrix}
+    n\\
+    k
+\end{matrix}
+\right\}
+_{\le h}
+= 0 \text{ for } n > k*h$
 
-- $\left\{ {n \atop n-1}\right\} = \binom{n}{2}$
 
-- $\left\{ {n \atop 2}\right\} = 2^{n-1}-1$
-
-
-- $\left\{{n+1\atop k+1}\right\} = \sum_{j=k}^n {n \choose j} \left\{{ j \atop k }\right\}\\$
-
-- $
-\left\{{n+1\atop k+1}\right\} = \sum_{j=k}^n (k+1)^{n-j} \left\{{j \atop k}\right\}\\$
-
-- $
-\left\{{n+k+1 \atop k}\right\} = \sum_{j=0}^k j \left\{{ n+j \atop j }\right\} \\$
-
-- $\left\{{n \atop \ell+m } \right\} \binom{\ell+m}{\ell} = \sum_k \left\{{k \atop \ell} \right\} \left\{{n-k \atop m } \right\} \binom{n}{k}$
 
 ## Generating functions
 
 ### Exponential generating function
 
-$B(x) = \sum_{n=0}^\infty \frac{B_n}{n!} x^n = e^{e^x-1}$
+$$
+\sum_{n=k}^{mk} \left\{ {n \atop k} \right\}_{\leq m} \frac{x^n}{n!} = \frac{1}{k!} \left( E_{m}(x) - 1 \right)^k
+$$
+$$
+E_m(t) = \sum_{k=0}^{m} \frac{t^k}{k!}
+$$
 
-## Software
+## Relation to restricted stirling numbers
 
-https://rosettacode.org/wiki/Bell_numbers
- 
-## Articles
+$$
+\left\{ {n \atop k} \right\}_{\leq \infty} = \left\{ {n \atop k} \right\}_{\geq 1} = \left\{ {n \atop k} \right\}
+$$
 
-## Blog posts
+## Related sequences
 
-https://fredrikj.net/blog/2015/08/computing-bell-numbers/
+[Associated Stirling Numbers](associatedStirling.md)
+
+[Restricted Bell Numbers](restrictedBell.md)
+
+## Sources
+[Incomplete poly-Bernoulli numbers associated with incomplete Stirling numbers
+](https://arxiv.org/abs/1510.05799)
+
+
+
