@@ -4,7 +4,14 @@
 
 # Stirling Numbers of the Second Kind
 
-$\left\{ {n \atop k} \right\}$ or S(n, k) is the number of ways of partitioning an $n$ element set into $k$ subsets.
+$\left\{
+\begin{matrix}
+    n\\
+    k
+\end{matrix}
+\right\}$ 
+or S(n, k) 
+is the number of ways of partitioning an $n$ element set into $k$ subsets.
 
 [A008277 on the OEIS](https://oeis.org/A008277)
 

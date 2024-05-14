@@ -11,22 +11,22 @@ $\left\{
 \right\}
 _{\ge m}$ 
 
-is the number of ways of partitioning an $n$ element set into $k$ subsets such that each subset has **at least $m$ elements**. They are often called **"associated stirling numbers"** or **"r-associated stirling numbers"**. 
+is the number of ways of partitioning an $n$ element set into $k$ subsets such that each subset has **at least $m$ elements**. They are often called **"Associated Stirling numbers"** or **"r-Associated Stirling numbers"**. 
 
-Case m=2: https://oeis.org/A008299
+ - Case m=2: https://oeis.org/A008299
 
-Case m=3: https://oeis.org/A059022
+- Case m=3: https://oeis.org/A059022
 
-Case m=4: https://oeis.org/A059023
+- Case m=4: https://oeis.org/A059023
  
-Case m=5: https://oeis.org/A059024
+- Case m=5: https://oeis.org/A059024
 
-Case m=6: https://oeis.org/A059025
+- Case m=6: https://oeis.org/A059025
 
 ## Basic Recurrence
 
 
-$\left\{
+$$\left\{
 \begin{matrix}
     n\\
     0
@@ -40,16 +40,16 @@ _{\ge m}
 \end{matrix}
 \right\}
 _{\ge m}
-= 0 \text{ for } n > 0$ 
+= 0 \text{ for } n > 0$$
 
-$\left\{
+$$\left\{
 \begin{matrix}
     0\\
     0
 \end{matrix}
 \right\}
 _{\ge m}
-= 1$
+= 1$$
 
 
 $$
@@ -68,14 +68,14 @@ No explicit formula to calculate these numbers is known. If you find one, please
 ## Identities
 
 
-$\left\{
+$$\left\{
 \begin{matrix}
     n\\
     k
 \end{matrix}
 \right\}
 _{\ge h}
-= 0 \text{ for } n < k*h$
+= 0 \text{ for } n < k*h$$
 
 
 

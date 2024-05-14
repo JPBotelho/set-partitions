@@ -13,15 +13,15 @@ _{\le m}$
 
 is the number of ways of partitioning an $n$ element set into $k$ subsets such that each subset has **at most $m$ elements**. They are often called **"Restricted Stirling numbers"** or **"r-Restricted Stirling numbers"**. 
 
-Case m=2: https://oeis.org/A144299
+ - Case m=2: https://oeis.org/A144299
 
-Case m=3: https://oeis.org/A111246
+ - Case m=3: https://oeis.org/A111246
 
-Case m=4: https://oeis.org/A144644
+ - Case m=4: https://oeis.org/A144644
 
-Case m=5: https://oeis.org/A151509
+ - Case m=5: https://oeis.org/A151509
 
-Case m=6: https://oeis.org/A151511
+ - Case m=6: https://oeis.org/A151511
 ## Basic Recurrence
 
 
@@ -65,14 +65,14 @@ No explicit formula to calculate these numbers is known. If you find one, please
 ## Identities
 
 
-$\left\{
+$$\left\{
 \begin{matrix}
     n\\
     k
 \end{matrix}
 \right\}
 _{\le h}
-= 0 \text{ for } n > k*h$
+= 0 \text{ for } n > k*h$$
 
 
 
