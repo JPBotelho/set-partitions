@@ -53,7 +53,7 @@ _{\le m}
 
 $$\begin{align*}
 \left\{ {n+1 \atop k} \right\}_{\leq m} &= \sum_{i=0}^{m-1} \binom{n}{i} \left\{ {n-i \atop k-1} \right\}_{\leq m} \\
-&= k \left\{ {n \atop k} \right\}_{\leq m} + \binom{n}{k-1} - \binom{n}{m} \left\{ {n-m \atop k-1} \right\}_{\leq m}
+&= k \left\{ {n \atop k} \right\}_{\leq m} +\left\{ {n \atop k-1} \right\}_{\leq m} - \binom{n}{m} \left\{ {n-m \atop k-1} \right\}_{\leq m}
 \end{align*}$$
 
 
