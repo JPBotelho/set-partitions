@@ -4,7 +4,7 @@
 
 # Stirling Numbers of the Second Kind
 
-S(n, k) is the number of ways of partitioning an $n$ element set into $k$ subsets.
+$\left\{ {n \atop k} \right\}$ or S(n, k) is the number of ways of partitioning an $n$ element set into $k$ subsets.
 
 [A008277 on the OEIS](https://oeis.org/A008277)
 
@@ -43,16 +43,11 @@ https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind
 
 ## Generating functions
 
-### Exponential generating function
-
-$B(x) = \sum_{n=0}^\infty \frac{B_n}{n!} x^n = e^{e^x-1}$
-
+See [Wikipedia](https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind)
 ## Software
 
 https://rosettacode.org/wiki/Bell_numbers
  
-## Articles
-
 ## Blog posts
 
 https://fredrikj.net/blog/2015/08/computing-bell-numbers/

@@ -89,7 +89,7 @@ $$
 E_m(t) = \sum_{k=0}^{m} \frac{t^k}{k!}
 $$
 
-## Relation to restricted stirling numbers
+## Relation to associated stirling numbers
 
 $$
 \left\{ {n \atop k} \right\}_{\leq \infty} = \left\{ {n \atop k} \right\}_{\geq 1} = \left\{ {n \atop k} \right\}

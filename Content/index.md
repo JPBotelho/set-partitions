@@ -18,7 +18,7 @@ In this website are resources on counting set partitions and related structures.
 
 - With at least $k$ elements per block **-> Associated Bell Number**
   - With at least $p$ elements per block, and the largest block has exactly $j$ elements [**-> stackoverflow**](https://math.stackexchange.com/questions/1078391/counting-set-partitions-with-constraints)
-- With at most $k$ elements per block **-> Restricted Bell Number**
+- With at most $k$ elements per block [**-> Restricted Bell Number**](restrictedBell.md)
 - Such that the first $k$ elements are in separate blocks **-> r-Restricted Bell Number**
 
 
@@ -64,4 +64,4 @@ ______
 
 Created on 10/05/2024
 
-Last updated on 11/05/2024
+Last updated on 14/05/2024
