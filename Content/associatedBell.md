@@ -45,7 +45,7 @@ $$
 \sum_{i=0}^{n} \binom{n}{i} B_{i \geq 2} = B_{n}.
 $$
 
-
+$$B_n = B_{n \geq 1}$$
  
 ## Articles
 [Combinatorial and Arithmetical Properties of the Restricted and Associated Bell and Factorial Numbers

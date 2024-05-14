@@ -25,7 +25,7 @@ Case m=6: https://oeis.org/A151511
 ## Basic Recurrence
 
 
-$\left\{
+$$\left\{
 \begin{matrix}
     n\\
     0
@@ -39,24 +39,22 @@ _{\le m}
 \end{matrix}
 \right\}
 _{\le m}
-= 0 \text{ for } n > 0$ 
+= 0 \text{ for } n > 0$$
 
-$\left\{
+$$\left\{
 \begin{matrix}
     0\\
     0
 \end{matrix}
 \right\}
 _{\le m}
-= 1$
+= 1$$
 
 
-$$
-\left\{ {n+1 \atop k} \right\}_{\leq m} = \sum_{i=0}^{m-1} \binom{n}{i} \left\{ {n-i \atop k-1} \right\}_{\leq m}
-$$
-$$
-= k \left\{ {n \atop k} \right\}_{\leq m} + \binom{n}{k-1} - \binom{n}{m} \left\{ {n-m \atop k-1} \right\}_{\leq m}
-$$
+$$\begin{align*}
+\left\{ {n+1 \atop k} \right\}_{\leq m} &= \sum_{i=0}^{m-1} \binom{n}{i} \left\{ {n-i \atop k-1} \right\}_{\leq m} \\
+&= k \left\{ {n \atop k} \right\}_{\leq m} + \binom{n}{k-1} - \binom{n}{m} \left\{ {n-m \atop k-1} \right\}_{\leq m}
+\end{align*}$$
 
 
 ## Formulas

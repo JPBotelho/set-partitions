@@ -62,6 +62,8 @@ $$B_n = \sum_{i=0}^{n}\binom{n}{i} * B_{i\le m} * B_{n-i\ge m+1}$$
 $$
 B_{n \geq k} = B_{n} - \sum_{i=1}^{n} \binom{n}{i} B_{i \leq k-1} B_{n-i \geq k}.
 $$
+
+$$B_n = B_{n \leq \infty}$$
  
 ## Articles
 [Combinatorial and Arithmetical Properties of the Restricted and Associated Bell and Factorial Numbers
