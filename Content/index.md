@@ -16,7 +16,7 @@ In this website are resources on counting set partitions and related structures.
 
 - Such that there are no blocks with a cardinality belonging to a given set set
 
-- With at least $k$ elements per block **-> Associated Bell Number**
+- With at least $k$ elements per block [**-> Associated Bell Number**](associatedBell.md)
   - With at least $p$ elements per block, and the largest block has exactly $j$ elements [**-> stackoverflow**](https://math.stackexchange.com/questions/1078391/counting-set-partitions-with-constraints)
 - With at most $k$ elements per block [**-> Restricted Bell Number**](restrictedBell.md)
 - Such that the first $k$ elements are in separate blocks **-> r-Restricted Bell Number**

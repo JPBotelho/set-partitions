@@ -44,10 +44,3 @@ https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind
 ## Generating functions
 
 See [Wikipedia](https://en.wikipedia.org/wiki/Stirling_numbers_of_the_second_kind)
-## Software
-
-https://rosettacode.org/wiki/Bell_numbers
- 
-## Blog posts
-
-https://fredrikj.net/blog/2015/08/computing-bell-numbers/

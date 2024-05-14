@@ -29,11 +29,11 @@ $B_{n\leq m}$ is the number of partitions of an $n$ element set such that every 
 - Case m=10: https://oeis.org/A229227
 
 ## Basic Recurrence
-$B_0$ = 1
+$$B_{0 \leq m} = 1$$
 
-$B_{n \leq m} = B_n \text{ for } m >= n$
+$$B_{n \leq m} = B_n \text{ for } m >= n$$
 
-$B_{n+1 \leq m}=\sum_{k=0}^{m-1} \binom{n}{k} B_{n-k \leq m}$
+$$B_{n+1 \leq m}=\sum_{k=0}^{m-1} \binom{n}{k} B_{n-k \leq m}$$
 
 
 
@@ -52,14 +52,16 @@ $$
 
 ### Exponential generating function
 
-$\sum_{n=0}^\infty \frac{B_{n \leq m}}{n!} x^n = exp(\sum_{i=1}^{m} \frac{x^i}{i!})$
+$$\sum_{n=0}^\infty \frac{B_{n \leq m}}{n!} x^n = exp(\sum_{i=1}^{m} \frac{x^i}{i!})$$
 
 ## Relation to Bell and Associated Bell numbers
 Where $B_n$ is a [Bell number](bellNumbers.md) and $B_{n \geq m}$ is an [Associated Bell Number](associatedBell.md)
 
-$B_n = \sum_{i=0}^{n}\binom{n}{i} * B_{i\le m} * B_{n-i\ge m+1}$
+$$B_n = \sum_{i=0}^{n}\binom{n}{i} * B_{i\le m} * B_{n-i\ge m+1}$$
 
-https://rosettacode.org/wiki/Bell_numbers
+$$
+B_{n \geq k} = B_{n} - \sum_{i=1}^{n} \binom{n}{i} B_{i \leq k-1} B_{n-i \geq k}.
+$$
  
 ## Articles
 [Combinatorial and Arithmetical Properties of the Restricted and Associated Bell and Factorial Numbers
