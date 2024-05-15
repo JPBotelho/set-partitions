@@ -6,27 +6,27 @@ In this website are resources on counting set partitions and related structures.
 
 ## Number of partitions
 
-- With no restrictions [**-> Bell Number**](bellNumbers.md)
+- With no restrictions [**(Bell Number)**](bellNumbers.md)
 
-- With exactly $n$ blocks [**-> Stirling Number of the second kind**](stirlingNumbers.md)
-    - ...and at least $k$ elements per block [**-> Associated Stirling Number of the second kind**](associatedStirling.md)
-    - ...and at most $k$ elements per block [**-> Restricted Stirling  Number of the second kind**](restrictedStirling.md)
-    - ...and the first $r$ elements are in separate blocks [**--> r-Stirling Number of the second kind**](r-restrictedStirling.md)
-    - ...and elements with pairwise distance $<d$ in separate blocks [**-> Reduced Stirling Number of the second kind** ](reducedStirling.md)
+- With exactly $n$ blocks [**(Stirling number of the second kind)**](stirlingNumbers.md)
+    - ...and at least $k$ elements per block [**(associated Stirling number of the second kind)**](associatedStirling.md)
+    - ...and at most $k$ elements per block [**(restricted Stirling  number of the second kind)**](restrictedStirling.md)
+    - ...and the first $r$ elements are in separate blocks [**(r-Stirling number of the second kind)**](r-restrictedStirling.md)
+    - ...and elements with pairwise distance $<d$ in separate blocks [**(reduced Stirling number of the second kind)** ](reducedStirling.md)
 
 - Such that there are no blocks with a cardinality belonging to a given set set
 
-- With at least $k$ elements per block [**-> Associated Bell Number**](associatedBell.md)
+- With at least $k$ elements per block [**-> associated Bell number**](associatedBell.md)
   - With at least $p$ elements per block, and the largest block has exactly $j$ elements [**-> stackoverflow**](https://math.stackexchange.com/questions/1078391/counting-set-partitions-with-constraints)
-- With at most $k$ elements per block [**-> Restricted Bell Number**](restrictedBell.md)
-- Such that the first $k$ elements are in separate blocks **-> r-Restricted Bell Number**
+- With at most $k$ elements per block [**-> restricted Bell number**](restrictedBell.md)
+- Such that the first $k$ elements are in separate blocks **-> r-restricted Bell number**
 
 
 - ?Into $k$ linearly ordered subsets [**-> Lah numbers**](https://en.wikipedia.org/wiki/Lah_number)
 
-- ?Into $k$ weakly ordered subsets [**-> Ordered Bell / Fubini numbers**](https://en.wikipedia.org/wiki/Ordered_Bell_number)
+- ?Into $k$ weakly ordered subsets [**-> ordered Bell / Fubini numbers**](https://en.wikipedia.org/wiki/Ordered_Bell_number)
 
-- Into non-crossing partitions **-> Catalan Number**
+- Into non-crossing partitions **-> Catalan number**
 
 - With block lengths given by the $k$th integer partition of the number of elements [**-> A036040**](https://oeis.org/A036040)
 
