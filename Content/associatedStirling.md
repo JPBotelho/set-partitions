@@ -52,12 +52,10 @@ _{\ge m}
 = 1$$
 
 
-$$
-\left\{ {n+1 \atop k} \right\}_{\geq m} = \sum_{i=m-1}^n \binom{n}{i} \left\{ {n-i \atop k-1} \right\}_{\geq m}
-$$
-$$
-= k \left\{ {n \atop k} \right\}_{\geq m} + \binom{n}{m-1} \left\{ {n-m+1 \atop k-1} \right\}_{\geq m}
-$$
+$$\begin{align*}
+\left\{ {n+1 \atop k} \right\}_{\geq m} &= \sum_{i=m-1}^n \binom{n}{i} \left\{ {n-i \atop k-1} \right\}_{\geq m} \\
+&= k \left\{ {n \atop k} \right\}_{\geq m} + \binom{n}{m-1} \left\{ {n-m+1 \atop k-1} \right\}_{\geq m}
+\end{align*}$$
 
 
 ## Formulas

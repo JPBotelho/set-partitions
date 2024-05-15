@@ -8,6 +8,8 @@
 
 $B_{n\leq m}$ is the number of partitions of an $n$ element set such that every block in any partition contains at most $m$ elements.
 
+They are the sum of the [Restricted Stirling Numbers](restricted.md) for all values $k \in \{1...n\}$
+
 - General case: https://oeis.org/A229223
 
 - Case m=2: https://oeis.org/A000085

@@ -11,7 +11,7 @@ In this website are resources on counting set partitions and related structures.
 - With exactly $n$ blocks [**-> Stirling Number of the second kind**](stirlingNumbers.md)
     - ...and at least $k$ elements per block [**-> Associated Stirling Number of the second kind**](associatedStirling.md)
     - ...and at most $k$ elements per block [**-> Restricted Stirling  Number of the second kind**](restrictedStirling.md)
-    - ...and the first $k$ elements are in separate blocks [**--> r-Restricted Stirling Number of the second kind**](r-restrictedStirling.md)
+    - ...and the first $r$ elements are in separate blocks [**--> r-Stirling Number of the second kind**](r-restrictedStirling.md)
     - ...and consecutive elements are in separate blocks [**-> Reduced Stirling Number of the second kind** ](reducedStirling.md)
 
 - Such that there are no blocks with a cardinality belonging to a given set set

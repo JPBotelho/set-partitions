@@ -8,10 +8,9 @@
 
 $B_{n\leq m}$ is the number of partitions of an $n$ element set such that every block in any partition contains at least $m$ elements.
 
+They are the sum of the [Associated Stirling Numbers](associatedStirling.md) for all values $k \in \{1...n\}$
 
 ## Basic Recurrence
-The recurrence given here seems hard to compute. Consider computing [Associated Stirling Numbers](associatedStirling.md) and adding them for all $k \in \{1...n\}$. 
-
 $$B_{0 \geq m} = 1$$
 
 $$B_{n \geq m} = 0 \text{ for } m > n > 0$$
