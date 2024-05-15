@@ -12,7 +12,7 @@ In this website are resources on counting set partitions and related structures.
     - ...and at least $k$ elements per block [**-> Associated Stirling Number of the second kind**](associatedStirling.md)
     - ...and at most $k$ elements per block [**-> Restricted Stirling  Number of the second kind**](restrictedStirling.md)
     - ...and the first $r$ elements are in separate blocks [**--> r-Stirling Number of the second kind**](r-restrictedStirling.md)
-    - ...and consecutive elements are in separate blocks [**-> Reduced Stirling Number of the second kind** ](reducedStirling.md)
+    - ...and elements with pairwise distance $<d$ in separate blocks [**-> Reduced Stirling Number of the second kind** ](reducedStirling.md)
 
 - Such that there are no blocks with a cardinality belonging to a given set set
 
