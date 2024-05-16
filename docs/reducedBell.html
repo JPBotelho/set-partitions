@@ -2,7 +2,7 @@
         <html>
         <head>
             <meta charset="UTF-8">
-            <title>Set Partitions</title>
+            <title>Reduced Bell Numbers</title>
             <style>
 /* From extension vscode.github */
 /*---------------------------------------------------------------------------------------------
@@ -2941,88 +2941,13 @@ body,
             data-light-theme="light"
             data-dark-theme="dark"
         >
-            <div class="github-markdown-content"><!-- title: Set Partitions -->
-<h1 id="set-partitions">Set partitions</h1>
-<p>In this website are resources on counting set partitions and related structures.</p>
-<p>It is not a complete reference. These are just some of the things I learned about when studying this topic. I made this website because it would've been of great help to me.</p>
-<p>There might be mistakes, double check with the given sources when in doubt.</p>
-<p>If there is something you feel should be added, removed or changed, contact me at jpbotelho.costa (at) <a href="http://gmail.com">gmail.com</a></p>
-<h2 id="number-of-partitions">Number of partitions</h2>
-<ul>
-<li>
-<p>With no restrictions <a href="bellNumbers.html"><strong>(Bell Number)</strong></a></p>
-</li>
-<li>
-<p>With at least <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> elements per block <a href="associatedBell.html"><strong>-&gt; associated Bell number</strong></a></p>
-<ul>
-<li>With at least <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> elements per block, and the largest block has exactly <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>j</mi></mrow><annotation encoding="application/x-tex">j</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.854em;vertical-align:-0.1944em;"></span><span class="mord mathnormal" style="margin-right:0.05724em;">j</span></span></span></span> elements <a href="https://math.stackexchange.com/questions/1078391/counting-set-partitions-with-constraints"><strong>-&gt; stackoverflow</strong></a></li>
-</ul>
-</li>
-<li>
-<p>With at most <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> elements per block <a href="restrictedBell.html"><strong>-&gt; restricted Bell number</strong></a></p>
-</li>
-<li>
-<p>Such that the first <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> elements are in separate blocks <a href="r-bell.html"><strong>-&gt; r-Bell number</strong></a></p>
-</li>
-<li>
-<p>Such that elements with pairwise distance <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo><mi>d</mi></mrow><annotation encoding="application/x-tex">&lt;d</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span></span></span></span> are in separate blocks <a href="reducedBell.html"><strong>(reduced Bell number)</strong> </a></p>
-</li>
-<li>
-<p>Such that the blocks are ordered but the elements in them aren't <a href="https://en.wikipedia.org/wiki/Ordered_Bell_number"><strong>-&gt; ordered Bell / Fubini numbers</strong></a></p>
-</li>
-<li>
-<p>Into non-crossing partitions <strong>-&gt; Catalan number</strong></p>
-</li>
-<li>
-<p>With block lengths given by the $k$th integer partition of the number of elements <a href="https://oeis.org/A036040"><strong>-&gt; A036040</strong></a></p>
-</li>
-<li>
-<p>Into blocks of equal size <a href="https://oeis.org/A038041"><strong>-&gt; A038041</strong></a></p>
-</li>
-<li>
-<p>Into blocks of different sizes <a href="https://oeis.org/A007837"><strong>-&gt; A007837</strong></a></p>
-</li>
-<li>
-<p>Such that the smallest block has size <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> <a href="https://oeis.org/A182930"><strong>-&gt; A182930</strong></a></p>
-</li>
-</ul>
-<h2 id="number-of-partitions-into-k--blocks">Number of partitions into <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span>  blocks</h2>
-<ul>
-<li>
-<p>...and no restrictions <a href="stirlingNumbers.html"><strong>(Stirling number of the second kind)</strong></a></p>
-<ul>
-<li>...and at least <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> elements per block <a href="associatedStirling.html"><strong>(associated Stirling number of the second kind)</strong></a></li>
-<li>...and at most <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>k</mi></mrow><annotation encoding="application/x-tex">k</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal" style="margin-right:0.03148em;">k</span></span></span></span> elements per block <a href="restrictedStirling.html"><strong>(restricted Stirling  number of the second kind)</strong></a></li>
-<li>...and the first <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>r</mi></mrow><annotation encoding="application/x-tex">r</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal" style="margin-right:0.02778em;">r</span></span></span></span> elements are in separate blocks <a href="r-restrictedStirling.html"><strong>(r-Stirling number of the second kind)</strong></a></li>
-<li>...and elements with pairwise distance <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>&lt;</mo><mi>d</mi></mrow><annotation encoding="application/x-tex">&lt;d</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.5782em;vertical-align:-0.0391em;"></span><span class="mrel">&lt;</span><span class="mspace" style="margin-right:0.2778em;"></span></span><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span></span></span></span> are in separate blocks <a href="reducedStirling.html"><strong>(reduced Stirling number of the second kind)</strong> </a></li>
-</ul>
-</li>
-<li>
-<p>Such that the blocks aren't ordered but the elements in them are <a href="https://en.wikipedia.org/wiki/Lah_number"><strong>-&gt; Lah numbers</strong></a></p>
-</li>
-</ul>
-<h2 id="parity-restrictions">Parity Restrictions</h2>
-<p><a href="https://oeis.org/wiki/User:Peter_Luschny/SetPartitions">Peter Luschny: set partitions</a></p>
-<ul>
-<li>Odd block size <a href="https://oeis.org/A003724"><strong>-&gt; A003724</strong></a></li>
-<li>Even block size <a href="https://oeis.org/A005046"><strong>-&gt; A005046</strong></a></li>
-<li>Odd number of blocks <a href="https://oeis.org/A024429"><strong>-&gt; A024429</strong></a></li>
-<li>Even number of blocks <a href="https://oeis.org/A024430"><strong>-&gt; A024430</strong></a></li>
-<li>Odd number of blocks, odd block size <a href="https://oeis.org/A003712"><strong>-&gt; A003712</strong></a></li>
-<li>Odd number of blocks, even block size <a href="https://oeis.org/A059385"><strong>-&gt; A059385</strong></a></li>
-<li>Even number of blocks, odd block size <a href="https://oeis.org/A003709"><strong>-&gt; A003709</strong></a></li>
-<li>Even number of blocks, even block size <a href="https://oeis.org/A059386"><strong>-&gt; A059386</strong></a></li>
-</ul>
-<h2 id="extra">Extra</h2>
-<ul>
-<li>Number of blocks of size <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>n</mi></mrow><annotation encoding="application/x-tex">n</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.4306em;"></span><span class="mord mathnormal">n</span></span></span></span></li>
-<li>Such that there are no blocks with a cardinality belonging to a given set set</li>
-</ul>
-<h1 id="resources">Resources</h1>
-<p>[1] <a href="https://oeis.org/wiki/User:Peter_Luschny/SetPartitions">https://oeis.org/wiki/User:Peter_Luschny/SetPartitions</a></p>
-<hr>
-<p>Created on 10/05/2024</p>
-<p>Last updated on 14/05/2024</p>
+            <div class="github-markdown-content"><!-- title: Reduced Bell Numbers -->
+<h3 id="---back-to-the-home-page"><a href="index.html">&lt;-- Back to the home page</a></h3>
+<h1 id="reduced-bell-numbers">Reduced Bell numbers</h1>
+<p class="katex-block"><span class="katex-display"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML" display="block"><semantics><mrow><msubsup><mi>B</mi><mi>n</mi><mi>d</mi></msubsup></mrow><annotation encoding="application/x-tex">B_n^d
+</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.1461em;vertical-align:-0.247em;"></span><span class="mord"><span class="mord mathnormal" style="margin-right:0.05017em;">B</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.8991em;"><span style="top:-2.453em;margin-left:-0.0502em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">n</span></span></span><span style="top:-3.113em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mathnormal mtight">d</span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.247em;"><span></span></span></span></span></span></span></span></span></span></span></p>
+<p>is the number of ways of partitioning the set <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo stretchy="false">{</mo><mn>1</mn><mo separator="true">,</mo><mn>2</mn><mo separator="true">,</mo><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mi mathvariant="normal">.</mi><mo separator="true">,</mo><mi>n</mi><mo stretchy="false">}</mo></mrow><annotation encoding="application/x-tex">\{1, 2, ..., n\}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1em;vertical-align:-0.25em;"></span><span class="mopen">{</span><span class="mord">1</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">2</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord">...</span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord mathnormal">n</span><span class="mclose">}</span></span></span></span> such that in each subset, elements have pairwise distance at least <span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>d</mi></mrow><annotation encoding="application/x-tex">d</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6944em;"></span><span class="mord mathnormal">d</span></span></span></span>.</p>
+<p>I couldn't find any scientific articles on these numbers. Consider summing up <a href="reducedStirling.html">reduced Stirling numbers of the second kind</a></p>
 </div>
         </div>
             <script async src="https://cdn.jsdelivr.net/npm/katex-copytex@latest/dist/katex-copytex.min.js"></script>
