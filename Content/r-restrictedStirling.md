@@ -11,11 +11,18 @@ $$\left\{
 \right\}_{r}$$
 is the number of ways of partitioning the set $\{1, 2, ..., n\}$ into $k$ subsets such that $\{1, 2, ..., r\}$ are in different blocks.
 
+ - Case r = 2: https://oeis.org/A143494
+
+ - Case r = 3: https://oeis.org/A143495
+
+ - Case r = 4: https://oeis.org/A143496
+
+ - Case r = 5: https://oeis.org/A193685
 
 
 ## Recurrence
 
-The r-Stirling numbers of the Second Kind follow the same recurrence as the normal Stirling Numbers of the Second Kind, but with different starting parameters.
+The r-Stirling numbers of the second kind follow the same recurrence as the normal Stirling numbers of the second kind, but with different starting parameters.
 
 $$\left\{
 \begin{matrix}

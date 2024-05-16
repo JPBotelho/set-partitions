@@ -2,7 +2,13 @@
 
 # Set partitions
 
-In this website are resources on counting set partitions and related structures. If there is something missing, contact me at jpbotelho.costa (at) gmail.com
+In this website are resources on counting set partitions and related structures.
+
+It is not a complete reference. These are just some of the things I learned about when studying this topic. I made this website because it would've been of great help to me. 
+
+There might be mistakes, double check with the given sources when in doubt.
+
+ If there is something you feel should be added, removed or changed, contact me at jpbotelho.costa (at) gmail.com
 
 ## Number of partitions
 
@@ -13,7 +19,7 @@ In this website are resources on counting set partitions and related structures.
 - With at most $k$ elements per block [**-> restricted Bell number**](restrictedBell.md)
 - Such that the first $k$ elements are in separate blocks [**-> r-Bell number**](r-bell.md)
 
-- Such that elements with pairwise distance $<d$ are in separate blocks [**(reduced Bell number)** ](reducedStirling.md)
+- Such that elements with pairwise distance $<d$ are in separate blocks [**(reduced Bell number)** ](reducedBell.md)
 
 - ?Into $k$ linearly ordered subsets [**-> Lah numbers**](https://en.wikipedia.org/wiki/Lah_number)
 
@@ -39,6 +45,7 @@ In this website are resources on counting set partitions and related structures.
 
 
 ## Parity Restrictions
+[Peter Luschny: set partitions](https://oeis.org/wiki/User:Peter_Luschny/SetPartitions)
 - Odd block size [**-> A003724**](https://oeis.org/A003724)
 - Even block size [**-> A005046**](https://oeis.org/A005046)
 - Odd number of blocks [**-> A024429**](https://oeis.org/A024429)

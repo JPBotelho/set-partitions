@@ -18,6 +18,12 @@ $$
 
 The main source of this page is the article linked below. A lot of the theorems were given for r-Bell polynomials, and I tried to translate them to r-Bell numbers. In case some formula here is giving wrong results, please see the original!
 
+- Case r=2: https://oeis.org/A005493
+
+- Case r=3: https://oeis.org/A005494
+
+- Case r=4: https://oeis.org/A045379
+
 ## Recurrence
 
 $$B_{n, r} = 0 \text{ for } n < r$$
@@ -69,8 +75,6 @@ $$
 
 
 ## Generating functions
-These one might be wrong, as they were given for the polynomials and I tried to adapt it to just the numbers. Check the article just in case.
-
 #### Exponential generating function
 $$
 \sum_{n=0}^{\infty} B_{n,r} \frac{z^n}{n!} = e^{(e^z-1)+rz}
