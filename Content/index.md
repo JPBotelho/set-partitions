@@ -8,19 +8,12 @@ In this website are resources on counting set partitions and related structures.
 
 - With no restrictions [**(Bell Number)**](bellNumbers.md)
 
-- With exactly $n$ blocks [**(Stirling number of the second kind)**](stirlingNumbers.md)
-    - ...and at least $k$ elements per block [**(associated Stirling number of the second kind)**](associatedStirling.md)
-    - ...and at most $k$ elements per block [**(restricted Stirling  number of the second kind)**](restrictedStirling.md)
-    - ...and the first $r$ elements are in separate blocks [**(r-Stirling number of the second kind)**](r-restrictedStirling.md)
-    - ...and elements with pairwise distance $<d$ in separate blocks [**(reduced Stirling number of the second kind)** ](reducedStirling.md)
-
-- Such that there are no blocks with a cardinality belonging to a given set set
-
 - With at least $k$ elements per block [**-> associated Bell number**](associatedBell.md)
-  - With at least $p$ elements per block, and the largest block has exactly $j$ elements [**-> stackoverflow**](https://math.stackexchange.com/questions/1078391/counting-set-partitions-with-constraints)
+  - With at least $k$ elements per block, and the largest block has exactly $j$ elements [**-> stackoverflow**](https://math.stackexchange.com/questions/1078391/counting-set-partitions-with-constraints)
 - With at most $k$ elements per block [**-> restricted Bell number**](restrictedBell.md)
-- Such that the first $k$ elements are in separate blocks **-> r-restricted Bell number**
+- Such that the first $k$ elements are in separate blocks [**-> r-Bell number**](r-bell.md)
 
+- Such that elements with pairwise distance $<d$ are in separate blocks [**(reduced Bell number)** ](reducedStirling.md)
 
 - ?Into $k$ linearly ordered subsets [**-> Lah numbers**](https://en.wikipedia.org/wiki/Lah_number)
 
@@ -35,10 +28,17 @@ In this website are resources on counting set partitions and related structures.
 - Into blocks of different sizes [**-> A007837**](https://oeis.org/A007837)
 - Such that the smallest block has size $k$ [**-> A182930**](https://oeis.org/A182930)
 
+## Number of partitions into $k$  blocks
+- ...and no restrictions [**(Stirling number of the second kind)**](stirlingNumbers.md)
+ 
+- ...and at least $k$ elements per block [**(associated Stirling number of the second kind)**](associatedStirling.md)
+- ...and at most $k$ elements per block [**(restricted Stirling  number of the second kind)**](restrictedStirling.md)
+- ...and the first $r$ elements are in separate blocks [**(r-Stirling number of the second kind)**](r-restrictedStirling.md)
+- ...and elements with pairwise distance $<d$ are in separate blocks [**(reduced Stirling number of the second kind)** ](reducedStirling.md)
 
 
-#### Parity Restrictions [1]
-Number of set partitions with...
+
+## Parity Restrictions
 - Odd block size [**-> A003724**](https://oeis.org/A003724)
 - Even block size [**-> A005046**](https://oeis.org/A005046)
 - Odd number of blocks [**-> A024429**](https://oeis.org/A024429)
@@ -48,14 +48,12 @@ Number of set partitions with...
 - Even number of blocks, odd block size [**-> A003709**](https://oeis.org/A003709)
 - Even number of blocks, even block size [**-> A059386**](https://oeis.org/A059386)
 
-others
 
-- Number of set partitions with an even number of parts, minus the number of partitions with an odd number of parts [**-> A000587**](https://oeis.org/A000587)
 
 
 ## Extra
 - Number of blocks of size $n$
-
+- Such that there are no blocks with a cardinality belonging to a given set set
 # Resources
 [1] https://oeis.org/wiki/User:Peter_Luschny/SetPartitions
 
