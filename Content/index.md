@@ -21,9 +21,8 @@ There might be mistakes, double check with the given sources when in doubt.
 
 - Such that elements with pairwise distance $<d$ are in separate blocks [**(reduced Bell number)** ](reducedBell.md)
 
-- ?Into $k$ linearly ordered subsets [**-> Lah numbers**](https://en.wikipedia.org/wiki/Lah_number)
 
-- ?Into $k$ weakly ordered subsets [**-> ordered Bell / Fubini numbers**](https://en.wikipedia.org/wiki/Ordered_Bell_number)
+- Such that the blocks are ordered but the elements in them aren't [**-> ordered Bell / Fubini numbers**](https://en.wikipedia.org/wiki/Ordered_Bell_number)
 
 - Into non-crossing partitions **-> Catalan number**
 
@@ -37,10 +36,11 @@ There might be mistakes, double check with the given sources when in doubt.
 ## Number of partitions into $k$  blocks
 - ...and no restrictions [**(Stirling number of the second kind)**](stirlingNumbers.md)
  
-- ...and at least $k$ elements per block [**(associated Stirling number of the second kind)**](associatedStirling.md)
-- ...and at most $k$ elements per block [**(restricted Stirling  number of the second kind)**](restrictedStirling.md)
-- ...and the first $r$ elements are in separate blocks [**(r-Stirling number of the second kind)**](r-restrictedStirling.md)
-- ...and elements with pairwise distance $<d$ are in separate blocks [**(reduced Stirling number of the second kind)** ](reducedStirling.md)
+  - ...and at least $k$ elements per block [**(associated Stirling number of the second kind)**](associatedStirling.md)
+  - ...and at most $k$ elements per block [**(restricted Stirling  number of the second kind)**](restrictedStirling.md)
+  - ...and the first $r$ elements are in separate blocks [**(r-Stirling number of the second kind)**](r-restrictedStirling.md)
+  - ...and elements with pairwise distance $<d$ are in separate blocks [**(reduced Stirling number of the second kind)** ](reducedStirling.md)
+- Such that the blocks aren't ordered but the elements in them are [**-> Lah numbers**](https://en.wikipedia.org/wiki/Lah_number)
 
 
 
